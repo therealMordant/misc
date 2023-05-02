@@ -1,0 +1,250 @@
+body {
+    background-color: #474747;
+    font-style: bold;
+    font-family: "guidole";
+    font-size: 19px;
+    line-height: 1.5;
+    background-size: center;
+    position: center;
+    overflow: scroll; /* Hide any overflowing content */
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  @font-face {
+    font-family: "guidole";
+    src: url(font/Gidole-Regular.ttf);
+  }
+  @font-face {
+    font-family: "Foundation";
+    src: url(font/foundationone.medium.ttf);
+  }
+  #particles-js{
+    width: 100%;
+    height: 100%;
+    background: #111111;
+  }
+
+  /* Style for the header section */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #33333300;
+    color: #fff;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    margin: 5px;
+  }
+  
+  .characterpnground {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 0px;
+  }
+  .gen-info {
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #33333300;
+    color: #fff;
+    margin-top: -60px;
+    margin-left: -1px;
+  }
+  
+  .gen-info h2 {
+    font-size: 36px;
+    margin: 0;
+  }
+  .gen-info p{
+    line-height: 15px;
+  }
+  /*Center Items*/
+.center-div {
+  display: flex;
+  align-items: center;
+}
+/*Center Items End*/
+
+.button-container {
+  margin-left: 10px;
+ 
+}
+
+#skills-button {
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 4px;
+  transform: scale(1);
+  transition-duration: 0.2s;
+  
+  cursor: pointer;
+  transition: .2s ease-in-out;
+
+  justify-content: center;
+}
+
+#skills-button:hover {
+  background-color: black;
+  border: 1px solid #ffffff;
+  color: white;
+  
+
+}
+
+#stats-button {
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 4px;
+  transform: scale(1);
+  transition-duration: 0.2s;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+
+  justify-content: center;
+}
+
+#stats-button:hover {
+  background-color: black;
+  border: 1px solid #ffffff;
+  color: white;
+  
+}
+/* Style for the general information section */
+.infobar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: -40px;
+    margin-left: -20px;
+}
+
+.element {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #33333300;
+    color: #fff;
+    flex-basis: 30%;
+}
+  
+.element h4 {
+    font-size: 24px;
+    margin: 0;
+}
+  
+.elementpng {
+    width: 50px;
+    height: 50px;
+    scale: 150%;
+}
+
+.location {
+  margin-left: -10px;
+}
+
+.character-pose {
+  position: fixed;
+  top: 100px;
+  right: 190px;
+  width: 40%;
+  scale: 215%;
+  z-index: 1;
+}
+
+.character-pose img {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Guidole";
+  text-transform: capitalize;
+  
+}
+
+
+.skills-container{
+  display: none;
+  justify-content:left;
+  align-items: top, center;
+  background-color: #7dada48c;
+  width: 1500px;
+  height: 500px;
+  margin-left: 100px;
+  border-radius: 10px;
+  padding: 30px;
+  z-index: 9999;
+  opacity: 0.70;
+}
+.attacks-container{
+  width: fit-content;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(141, 236, 204, 0.233);
+  margin-left: -10px;
+  margin-top: -10px;
+  z-index: 9999;
+}
+.normal-attacks{
+  line-height: normal;
+}
+.normal-attacks h2{
+  font-family: "Foundation";
+  text-decoration:dashed ;
+}
+.normal-attacks h5{
+  font-size: 16px;
+}
+.normal-attacks p{
+  font-size: 13px;
+}
+.resonance-skill{
+  margin-top: 30px;
+}
+.resonance-skill h2{
+  font-family: "Foundation";
+  text-decoration:dashed ;
+  
+}
+.resonance-skill h5{
+  font-size: 16px;
+}
+.resonance-skill p{
+  font-size: 13px;
+}
+.resonance-liberation{
+  margin-top: 30px;
+}
+.resonance-liberation h2{
+  font-family: "Foundation";
+  text-decoration:dashed ;
+  
+}
+.resonance-liberation h5{
+  font-size: 16px;
+}
+.resonance-liberation p{
+  font-size: 13px;
+}

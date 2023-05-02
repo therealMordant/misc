@@ -1,0 +1,100 @@
+/* Root Variables Start*/
+
+:root {
+    --char-mini-intro-bg: rgba(0,0,0,.3);
+}
+
+/* Root Variables End*/
+
+/* Importing Fonts Start*/
+
+@font-face {
+    font-family: foundation;
+    src: url(../fonts/FoundationTitlesHand-SemiBold-v0.85.ttf);
+}
+
+/* Importing Fonts End*/
+
+/*Center Items*/
+.center-div {
+    display: flex;
+    align-items: center;
+}
+/*Center Items End*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    overflow: hidden;
+    background-color: #060f1b80;
+}
+
+/* Push Character Images Left Start*/
+
+.character-info {
+   
+}
+
+.character-page {
+    position: relative;
+    font-family: foundation;
+}
+
+.character-image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.character-image img {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, 0%);
+
+    width: 720px;
+}
+
+.character-intro {
+    color: white;
+    font-size: 8pt;
+
+    position: absolute;
+    top: 500px;
+    left: 10px;
+
+    z-index: 99;
+    padding-left: 5px;
+}
+
+.character-info::before {
+    position: absolute;
+    content: '';
+
+    top: 490px;
+
+    width: 400px;
+    height: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+
+    z-index: -1;
+}
+
+.character-name {
+    position: absolute;
+
+    
+    bottom: -710px;
+    left: 650px;
+
+    font-size: 50pt;
+}
+
+/* Push Character Images Left End*/
